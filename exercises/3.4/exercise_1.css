@@ -1,3 +1,66 @@
 .factphoto{
-    height: 100px;
+    height: 180px;
+}
+body{
+    background-image: url(https://s2.glbimg.com/-1FvNLQGJLGhfJhcXyBkf3-g9lY=/e.glbimg.com/og/ed/f/original/2020/04/14/jeremy-bishop-1brazysleka-unsplash.jpg);
+}
+header{
+    background-color: darkgreen;
+    text-align: left;
+    margin-left: 60px;
+}
+.navigator{
+    background-color:darkmagenta;
+    text-align: center;
+    height: 45px;
+}
+
+li{
+    display:inline-block;
+    list-style:none;
+    text-decoration: none;
+    width: 200px;
+}
+main{
+    background-color: darkslategrey;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+article{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    
+
+}
+aside{
+    float:right;
+    width:20%;
+    margin:5px;
+    border: 5px double black; 
+    text-align: center;
+}
+#imginfo{
+    padding: 0% 10% 0% 5%;
+    max-width: 90%;
+    display: block;
+}
+    td{
+        color:darkred;
+        font-size:14px;
+        padding: 0% 0% 0% 2%;
+        text-align: left; 
+}
+    .esq{
+        font-size:14px;
+        color:darkred;
+        text-align: left;
+        padding: 0% 10% 0% 25%;
+    }
+section{
+    background-color: darkviolet;
+}
+footer{ 
+    background-color: darkgreen;
+    height: 120px;
 }
