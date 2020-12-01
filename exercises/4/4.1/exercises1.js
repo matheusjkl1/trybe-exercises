@@ -1,42 +1,41 @@
 //Adição
-let a = 5
-let b = 2
-    console.log(a + b);
+function sum(a, b) {
+    return a + b;
+  }
 //Subtração
-let c = 8
-let d = 1
-    console.log(c - d);
+function sub(c, d){
+    return c - d;
+}
 //Multiplicação
-let e = 2
-let f = 2
-    console.log(a * b);
+  function mult(e, f){
+      return e * f;
+  }
 //Divisão
-let g = 1
-let h = 6
-    console.log(a / b);
+  function div(g, h){
+      return g / h;
+  }
 //Módulo
-let i = 1
-let j = 1
-    console.log(a % b);
+   function mod(i, j){
+    return i % j;   
+}
 /*Faça um programa que retorne o maior de dois números. Defina no começo do programa duas variáveis com os valores que serão comparados.*/
- let Y = 1;
- let Z = 4;
 
-    if (Y => Z){
-        console.log("Y É Maior.");
+    function program(Y, Z){
+
+        if (Y => Z){
+            console.log("Y É Maior.");
+        }
+        else if (Y <= Z){
+            console.log("Z É Maior.");
+        }
+        else {
+            Z * 2
+        };
     }
-    else if (Y <= Z){
-        console.log("Z É Maior.");
-    }
-    else {
-        Z * 2
-    };
+   
 /*Faça um programa que retorne o maior de três números. Defina no começo do programa três variáveis com os valores que serão comparados.*/
     
-    let L = 20;
-    let M = 66;
-    let K = 70;
-   
+function program2(L, M, K){
        if (L > M && L > K){
            console.log(L +" Portanto L é maior");
        }
@@ -46,10 +45,10 @@ let j = 1
        else {
            console.log(K +" Portanto K é maior")
        };
-   
+    }
 /*Faça um programa que, dado um valor definido numa variável, retorne "positive" se esse valor for positivo, "negative" se for negativo e "zero" caso contrário.*/
 
-let valor = -1
+function program3(valor){
 
  if (valor > 0){
 
@@ -61,3 +60,4 @@ let valor = -1
  }
 
  else { console.log("zero")}
+}
