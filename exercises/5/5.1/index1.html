@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Filme Recomendado</title>
+  </head>
+  <body>
+    <h1 id="page-title">Título</h1>
+    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <h4 id="subtitle">Subtítulo</h4>
+    <p id="second-paragraph">Segundo parágrafo!</p>
+    <div class="elenco-title">Elenco
+      <ul class="elenco-list">
+        <li class="blue">Amy Smart</li>
+        <li class="green">Ashton Kutcher</li>
+        <li class="darkred">Logan Lerman</li>
+        <li class="purple">Elden Henson</li>
+        <li class="yellow">Melora Walters</li>
+      </ul>
+    </div>
+   
+    <script>
+      let title = document.querySelector('#page-title')
+      title.innerText = "Efeito Borboleta (2004)"
+      title.style.color ='black'
+      title.style.textShadow = '2px 2px white';
+
+      let paragraph = document.querySelector("#paragraph");
+      paragraph.style.color = "cyan";
+      paragraph.innerText = 'IMDb, 7,6/10';
+      paragraph.style.marginLeft = '50px'
+
+      let secondParagraph = document.querySelector('#second-paragraph');
+      secondParagraph.style.marginLeft = '35px';
+      secondParagraph.style.color = "#435902";
+      secondParagraph.style.textShadow = '1px 1px black';
+      secondParagraph.innerText = "O estudante universitário Evan Treborn está aflito com dores de cabeça tão fortes que frequentemente desmaia. Enquanto está inconsciente, Evan pode viajar de volta no tempo para momentos de dificuldades na infância. Ele também pode alterar o passado para os amigos, como Kayleigh, que foi molestada pelo pai. Porém ao mudar o passado, ele pode alterar o presente, o que leva Evan a se encontrar em um pesadelo de realidades alternativas, incluindo uma onde ele está preso.";
+
+      let subtitle = document.querySelector('#subtitle');
+      subtitle.innerText = 'Vale a pena mexer no passado?';
+      subtitle.style.color = '#b20a0a'
+      subtitle.style.marginLeft = '50px'
+      subtitle.style.textShadow = '1px 1px black';
+
+      function randomColor(){
+        let elencoList = document.querySelectorAll('.elenco-list ')
+        for(let indice = 0; indice < elencoList.length; indice += 1){
+          elencoList[indice].style.color = '#8fd6d6';
+          elencoList[indice].style.fontSize = '14px';
+          elencoList[indice].style.textShadow = '1px 1px black';
+        }
+      }
+      randomColor();
+    </script>
+  </body>
+</html>
