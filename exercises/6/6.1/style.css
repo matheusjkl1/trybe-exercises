@@ -20,6 +20,7 @@ body {
     border-color: rgb(52, 176, 201);
     border-radius: 4px;
     color:#09101F;
+    text-decoration: none;
 }
 
 .singin{
@@ -114,8 +115,7 @@ footer {
 
 .speaker-form-header {
     text-align: center;
-}
-  
+}  
 .box-style {
     background-color: rgb(246, 247, 248);
     border: 1px solid rgb(214, 217, 220);
@@ -141,11 +141,16 @@ footer {
     border: 1px solid rgb(214, 217, 220);
 }
   
-  .fieldset-fight-type {
+.fieldset-fight-type {
     padding: 10px;
-  }
-  
-  .abstract-style {
+    width: 45%;
+}
+ 
+.abstract-style {
     width: 100%;
-  }
+}
+
+.about {
+    
+}
   
