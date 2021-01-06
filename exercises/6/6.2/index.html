@@ -4,58 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Conferencia da T9! A Melhor do mundo.</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 <body>
   
-  <header>
-    <h1>Conferencia da T9</h1>
-    <p><em>Quer palestrar na melhor conferência do mundo? Preencha o formulário!</em></p>
+  <header class="section">
+    <h1 class="title has-text-centered">Conferencia da T9</h1>
+    <p class="subtitle has-text-centered"><em>Quer palestrar na melhor conferência do mundo? Preencha o formulário!</em></p>
   </header>
 
-  <form action='' method='GET'>
-    
-    <!-- NOME -->
-    <label for='full-name'>Nome</label>
-    <input id='full-name' type='text'>
+  <hr>
 
-    <!-- TIPO DA PALESTRA -->
-    <fieldset>
-      <legend>Tipo de Palestra</legend>
-      <input type="radio" 
-        name="talk-type"
-        id="talk-type-stage"
-        value="main-stage">
-      <label for="talk-type-stage">Palco Principal</label>
 
-      <input type="radio"
-        name="talk-type"
-        id="talk-type-workshop"
-        value="workshop">
-      <label for="talk-type-workshop">Workshop</label>
-    </fieldset>
+  <div class="section">
+    <form action='' method='GET'>
+      <div class="control">
+        
+        <!-- NOME -->
+        <div class="field">
+          <label class="label" for='full-name'>Nome</label>
+          <input class="input" id='full-name' type='text'>
+        </div>
 
-    <!-- INFO CAMISA -->
-    <label for="t-shirt">Tamanho da camisa</label>
-    <select name="t-shirt" id="t-shirt">
-      <option value="p">Pequeno</option>
-      <option value="m">Médio</option>
-      <option value="g">Grande</option>
-      <option value="gg">Extra Grande</option>
-    </select>
+        <!-- TIPO DA PALESTRA -->
+        <div class="field">
+          <p class="label">Tipo da Palestra</p>
+          <label class="radio" for="talk-type-stage">
+            <input type="radio" 
+              name="talk-type"
+              id="talk-type-stage"
+              value="main-stage">
+            Palco Principal
+          </label>
 
-    <!-- DESCRICAO DA PALESTRA -->
-    <label for="abstract">Descrição da Palestra</label>
-    <textarea name="abstract" id="abstract"></textarea>
+          <label class="radio" for="talk-type-workshop">
+            <input type="radio"
+              name="talk-type"
+              id="talk-type-workshop"
+              value="workshop">
+            Workshop
+          </label>
+        </div>
 
-    <!-- DISPONIBILIDADE -->
-    <input type="checkbox" name="availability" id="availability">
-    <span>Estou disponível nessa data!</span>
+        <!-- INFO CAMISA -->
+        <div class="field">
+          <label class="label" for="t-shirt">Tamanho da camisa</label>
+          <div class="select is-rounded">
+            <select name="t-shirt" id="t-shirt">
+              <option value="p">Pequeno</option>
+              <option value="m">Médio</option>
+              <option value="g">Grande</option>
+              <option value="gg">Extra Grande</option>
+            </select>
+          </div>
+        </div>
 
-    <!-- BOTAO DE ENVIAR -->
-    <button type="submit">ENVIAR!</button>
+        <!-- DESCRICAO DA PALESTRA -->
+        <div class="field">
+          <label class="label" for="abstract">Descrição da Palestra</label>
+          <textarea class="textarea"
+            name="abstract"
+            id="abstract"
+            placeholder="Descreva sua palestra..."></textarea>
+        </div>
 
-  </form>
+        <!-- DISPONIBILIDADE -->
+        <div class="field">
+          <label class="checkbox" for="availability">
+            <input type="checkbox" name="availability" id="availability">
+            Estou disponível nessa data!
+          </label>
+        </div>
+
+        <!-- BOTAO DE ENVIAR -->
+        <div class="field">
+          <button class="button is-success" type="submit">ENVIAR!</button>
+          <button class="button is-danger" type="reset">LIMPAR</button>
+        </div>
+
+      </div>
+    </form>
+  </div>
+  
 
 </body>
 </html>
