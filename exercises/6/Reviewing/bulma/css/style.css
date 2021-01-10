@@ -1,0 +1,98 @@
+/* @fortawesome/fontawesome-free footer { 
+    background-color: rgb(175, 207, 255);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-top: 6px solid rgba(205, 207, 210, 0.7);
+    clear: both;
+    padding-top: 24px;
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+ } 
+
+
+ { 
+    background-color: #09101F; 
+} */
+
+.my-section {
+    margin-top: 0px;
+    padding: 0rem 0rem 4rem;
+}
+
+.my-section-about {
+    margin-top: 0px;
+    padding: 0rem 10rem 4rem 10rem;
+}
+
+*:hover,
+*:visited,
+*:active {
+    color: : inherit;
+}
+
+#gitlogo {
+    max-width: 10%;
+    margin-bottom: 25px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+
+#linkedinlogo {
+    max-width: 10%;
+    margin-bottom: 17px;
+    margin-left: 30px;
+    opacity: 0.8;
+}
+
+.home-image {
+    opacity: 0.9;
+}
+
+.my-image {
+    opacity: 0.9;
+    padding-bottom: 3rem;
+    border-radius: 6px;
+    /* border: 1px solid; */
+}
+
+#linkedinlogo:hover {
+    opacity: 1;
+}
+
+#gitlogo:hover {
+    opacity: 1;
+}
+
+.home-image:hover {
+    opacity: 1;
+}
+
+.my-image:hover {
+    opacity: 1;
+}
+
+#licoes_aprendidas {
+    background-color: blueviolet;
+    border-radius: 4px;
+}
+
+#licoes_a_aprender {
+    background-color: darkcyan;
+    border-radius: 4px;
+}
+
+.text {
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.table {
+    /* background-color: chartreuse; */
+    border-radius: 4px;
+}
+
+.trybe-logo {
+    padding: 0rem 1rem 0rem 1rem;
+}
