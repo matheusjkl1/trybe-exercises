@@ -1,5 +1,5 @@
 # Trybe Exercises
 
-Aqui voce vai encontrar meus projetos feitos na Trybe.
+Aqui voce vai encontrar meus exercicios feitos na Trybe.
 
-Fique a vontade para dar Feedback sobre meus projetos.
+Fique a vontade para dar Feedback sobre.
